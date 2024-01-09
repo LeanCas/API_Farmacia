@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "hU0PaEBsfMyPM0ytijjKtTeyXdQug5oFtf3psNXgoSapO6GfFIYoxLFOMVT2X69bJffd8vYH4LzPOvawV7+vIw==",
+  "dgSpecHash": "JOCwQ6+bbQVBFrPAjFeOmGTCePrpopBxRg54f7PMb2oXakTQk/Aa+ZjxBDtCQgUSyRBnAfMzCpZw3xhrYam+9A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Bruno Casavalle\\Desktop\\Farmacia-API\\API_Farmacia\\src\\Farmacia.Persistence\\Farmacia.Persistence.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Bruno Casavalle\\.nuget\\packages\\dapper\\2.1.28\\dapper.2.1.28.nupkg.sha512"
+  ],
   "logs": []
 }

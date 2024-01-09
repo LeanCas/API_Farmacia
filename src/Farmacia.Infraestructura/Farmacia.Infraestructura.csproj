@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Farmacia.Application.Interface\Farmacia.Application.Interface.csproj" />
+  </ItemGroup>
+
 </Project>

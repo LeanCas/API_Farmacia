@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Farmacia.Application.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Farmacia.Application.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Farmacia.Application.Interface.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Farmacia.Application.Interface/1.0.0": {
+      "type": "project",
+      "path": "../Farmacia.Application.Interface/Farmacia.Application.Interface.csproj",
+      "msbuildProject": "../Farmacia.Application.Interface/Farmacia.Application.Interface.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Farmacia.Application.Interface >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Bruno Casavalle\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Bruno Casavalle\\Desktop\\Farmacia-API\\API_Farmacia\\src\\Farmacia.Application.Interface\\Farmacia.Application.Interface.csproj": {
+              "projectPath": "C:\\Users\\Bruno Casavalle\\Desktop\\Farmacia-API\\API_Farmacia\\src\\Farmacia.Application.Interface\\Farmacia.Application.Interface.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
