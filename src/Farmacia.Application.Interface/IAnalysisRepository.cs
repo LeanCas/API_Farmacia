@@ -16,5 +16,7 @@ namespace Farmacia.Application.Interface
         Task<bool> AnalysisRegister(Analysis analysis); 
 
         Task<bool> AnalysisEdit(Analysis analysis);
+
+        Task<bool> AnalysisDelete(int analysisId);
     }
 }

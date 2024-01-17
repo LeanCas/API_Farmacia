@@ -82,5 +82,20 @@ namespace Farmacia.Persistence.Repositories
 
             return recordsAffected > 0;
         }
+
+        public async Task<bool> AnalysisDelete(int analysisId)
+        {
+            using var connection = _dbContext.CreateConnection;
+
+            var query = "uspAnalysisDelete";
+
+            var parameters = new DynamicParameters();
+            parameters.Add("AnalysisId", analysisId);
+
+            var recordsAffected = await connection
+                .ExecuteAsync(query, param: parameters, commandType: CommandType.StoredProcedure);
+
+            return recordsAffected > 0;
+        }
     }
 }

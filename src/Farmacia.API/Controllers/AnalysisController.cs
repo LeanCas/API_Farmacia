@@ -1,5 +1,6 @@
 ﻿using Farmacia.Application.Dtos.Analysis.Response;
 using Farmacia.Application.UseCase.UseCases.Analysis.Commands.CreateCommand;
+using Farmacia.Application.UseCase.UseCases.Analysis.Commands.DeleteCommand;
 using Farmacia.Application.UseCase.UseCases.Analysis.Commands.UpdateCommand;
 using Farmacia.Application.UseCase.UseCases.Analysis.Queries.GetAllQuery;
 using Farmacia.Application.UseCase.UseCases.Analysis.Queries.GetByIdQuery;
@@ -53,8 +54,13 @@ namespace Farmacia.API.Controllers
             return Ok(response);
         }
 
+        [HttpDelete("Delete/{analysisId:int}")]
+        public async Task<IActionResult> DeleteAnalysis(int analysisId)
+        {
+            var response = await _mediator.Send(new DeleteAnalysisCommand() { AnalysisId = analysisId});
 
-
+            return Ok(response);
+        }
 
     }
 }
