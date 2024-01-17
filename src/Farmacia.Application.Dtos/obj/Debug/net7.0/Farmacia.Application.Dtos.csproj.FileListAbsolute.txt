@@ -1,0 +1,12 @@
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.Dtos\bin\Debug\net7.0\Farmacia.Application.Dtos.deps.json
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.Dtos\bin\Debug\net7.0\Farmacia.Application.Dtos.dll
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.Dtos\bin\Debug\net7.0\Farmacia.Application.Dtos.pdb
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.Dtos\obj\Debug\net7.0\Farmacia.Application.Dtos.csproj.AssemblyReference.cache
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.Dtos\obj\Debug\net7.0\Farmacia.Application.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.Dtos\obj\Debug\net7.0\Farmacia.Application.Dtos.AssemblyInfoInputs.cache
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.Dtos\obj\Debug\net7.0\Farmacia.Application.Dtos.AssemblyInfo.cs
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.Dtos\obj\Debug\net7.0\Farmacia.Application.Dtos.csproj.CoreCompileInputs.cache
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.Dtos\obj\Debug\net7.0\Farmacia.Application.Dtos.dll
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.Dtos\obj\Debug\net7.0\refint\Farmacia.Application.Dtos.dll
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.Dtos\obj\Debug\net7.0\Farmacia.Application.Dtos.pdb
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.Dtos\obj\Debug\net7.0\ref\Farmacia.Application.Dtos.dll

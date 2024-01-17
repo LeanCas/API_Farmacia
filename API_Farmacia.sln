@@ -13,21 +13,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{C6
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{28DEB317-59A0-4C86-9E56-5498370381FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farmacia.Domain", "src\Farmacia.Domain\Farmacia.Domain.csproj", "{08C85D2E-D173-45AE-9016-E9525B6B7DA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Farmacia.Domain", "src\Farmacia.Domain\Farmacia.Domain.csproj", "{08C85D2E-D173-45AE-9016-E9525B6B7DA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farmacia.Infraestructura", "src\Farmacia.Infraestructura\Farmacia.Infraestructura.csproj", "{60E1A687-BD62-4D9B-90AC-86AA7FF6E5FF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Farmacia.Infraestructura", "src\Farmacia.Infraestructura\Farmacia.Infraestructura.csproj", "{60E1A687-BD62-4D9B-90AC-86AA7FF6E5FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farmacia.Persistence", "src\Farmacia.Persistence\Farmacia.Persistence.csproj", "{C9CE5EC2-8972-4D76-844B-8C9D70586307}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Farmacia.Persistence", "src\Farmacia.Persistence\Farmacia.Persistence.csproj", "{C9CE5EC2-8972-4D76-844B-8C9D70586307}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farmacia.Application.Dtos", "src\Farmacia.Application.Dtos\Farmacia.Application.Dtos.csproj", "{C1279809-342F-461C-B8AF-F22093CC3AF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Farmacia.Application.Dtos", "src\Farmacia.Application.Dtos\Farmacia.Application.Dtos.csproj", "{C1279809-342F-461C-B8AF-F22093CC3AF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farmacia.Application.Interface", "src\Farmacia.Application.Interface\Farmacia.Application.Interface.csproj", "{F485C1A9-FAFC-4FC8-BBB3-C2ECEDB409F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Farmacia.Application.Interface", "src\Farmacia.Application.Interface\Farmacia.Application.Interface.csproj", "{F485C1A9-FAFC-4FC8-BBB3-C2ECEDB409F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farmacia.Application.UseCase", "src\Farmacia.Application.UseCase\Farmacia.Application.UseCase.csproj", "{CFEA09A0-9E6D-4678-B4CB-B4E3283F716E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Farmacia.Application.UseCase", "src\Farmacia.Application.UseCase\Farmacia.Application.UseCase.csproj", "{CFEA09A0-9E6D-4678-B4CB-B4E3283F716E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farmacia.API", "src\Farmacia.API\Farmacia.API.csproj", "{6E102AD4-1C5E-46D4-8C57-77E523B5045E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Farmacia.API", "src\Farmacia.API\Farmacia.API.csproj", "{6E102AD4-1C5E-46D4-8C57-77E523B5045E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Farmacia.Utilities", "src\Farmacia.Utilities\Farmacia.Utilities.csproj", "{93FBECE5-7001-45AD-BD0F-25F7159F49A7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Farmacia.Utilities", "src\Farmacia.Utilities\Farmacia.Utilities.csproj", "{93FBECE5-7001-45AD-BD0F-25F7159F49A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

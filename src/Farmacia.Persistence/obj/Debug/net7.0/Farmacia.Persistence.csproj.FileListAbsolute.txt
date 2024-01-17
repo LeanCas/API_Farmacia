@@ -1,0 +1,17 @@
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Persistence\bin\Debug\net7.0\Farmacia.Persistence.deps.json
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Persistence\bin\Debug\net7.0\Farmacia.Persistence.dll
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Persistence\bin\Debug\net7.0\Farmacia.Persistence.pdb
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Persistence\bin\Debug\net7.0\Farmacia.Application.Interface.dll
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Persistence\bin\Debug\net7.0\Farmacia.Domain.dll
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Persistence\bin\Debug\net7.0\Farmacia.Application.Interface.pdb
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Persistence\bin\Debug\net7.0\Farmacia.Domain.pdb
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Persistence\obj\Debug\net7.0\Farmacia.Persistence.csproj.AssemblyReference.cache
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Persistence\obj\Debug\net7.0\Farmacia.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Persistence\obj\Debug\net7.0\Farmacia.Persistence.AssemblyInfoInputs.cache
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Persistence\obj\Debug\net7.0\Farmacia.Persistence.AssemblyInfo.cs
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Persistence\obj\Debug\net7.0\Farmacia.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Persistence\obj\Debug\net7.0\Farmacia.Persistence.csproj.CopyComplete
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Persistence\obj\Debug\net7.0\Farmacia.Persistence.dll
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Persistence\obj\Debug\net7.0\refint\Farmacia.Persistence.dll
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Persistence\obj\Debug\net7.0\Farmacia.Persistence.pdb
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Persistence\obj\Debug\net7.0\ref\Farmacia.Persistence.dll

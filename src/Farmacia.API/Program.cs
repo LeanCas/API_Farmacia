@@ -1,3 +1,6 @@
+using Farmacia.Persistence.Extensions;
+using Farmacia.Application.UseCase.Extensions;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +9,9 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddInjectionPersistense();
+builder.Services.AddInjectionApplication();
 
 var app = builder.Build();
 

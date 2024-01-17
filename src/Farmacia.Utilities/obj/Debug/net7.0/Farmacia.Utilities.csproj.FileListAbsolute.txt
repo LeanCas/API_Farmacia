@@ -1,0 +1,12 @@
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Utilities\bin\Debug\net7.0\Farmacia.Utilities.deps.json
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Utilities\bin\Debug\net7.0\Farmacia.Utilities.dll
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Utilities\bin\Debug\net7.0\Farmacia.Utilities.pdb
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Utilities\obj\Debug\net7.0\Farmacia.Utilities.csproj.AssemblyReference.cache
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Utilities\obj\Debug\net7.0\Farmacia.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Utilities\obj\Debug\net7.0\Farmacia.Utilities.AssemblyInfoInputs.cache
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Utilities\obj\Debug\net7.0\Farmacia.Utilities.AssemblyInfo.cs
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Utilities\obj\Debug\net7.0\Farmacia.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Utilities\obj\Debug\net7.0\Farmacia.Utilities.dll
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Utilities\obj\Debug\net7.0\refint\Farmacia.Utilities.dll
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Utilities\obj\Debug\net7.0\Farmacia.Utilities.pdb
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Utilities\obj\Debug\net7.0\ref\Farmacia.Utilities.dll

@@ -5,11 +5,24 @@
       "Farmacia.Application.Interface/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Farmacia.Domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Farmacia.Application.Interface.dll": {}
         },
         "runtime": {
           "bin/placeholder/Farmacia.Application.Interface.dll": {}
+        }
+      },
+      "Farmacia.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Farmacia.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Farmacia.Domain.dll": {}
         }
       }
     }
@@ -19,6 +32,11 @@
       "type": "project",
       "path": "../Farmacia.Application.Interface/Farmacia.Application.Interface.csproj",
       "msbuildProject": "../Farmacia.Application.Interface/Farmacia.Application.Interface.csproj"
+    },
+    "Farmacia.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Farmacia.Domain/Farmacia.Domain.csproj",
+      "msbuildProject": "../Farmacia.Domain/Farmacia.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {

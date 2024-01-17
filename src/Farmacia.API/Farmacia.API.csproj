@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Farmacia.Application.UseCase\Farmacia.Application.UseCase.csproj" />
+    <ProjectReference Include="..\Farmacia.Persistence\Farmacia.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Farmacia.Infraestructura/1.0.0": {
+        "dependencies": {
+          "Farmacia.Application.Interface": "1.0.0"
+        },
+        "runtime": {
+          "Farmacia.Infraestructura.dll": {}
+        }
+      },
+      "Farmacia.Application.Interface/1.0.0": {
+        "dependencies": {
+          "Farmacia.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Farmacia.Application.Interface.dll": {}
+        }
+      },
+      "Farmacia.Domain/1.0.0": {
+        "runtime": {
+          "Farmacia.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Farmacia.Infraestructura/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Farmacia.Application.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Farmacia.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

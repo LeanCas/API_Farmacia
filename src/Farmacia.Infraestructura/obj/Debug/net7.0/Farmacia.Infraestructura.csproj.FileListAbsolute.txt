@@ -1,0 +1,17 @@
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Infraestructura\bin\Debug\net7.0\Farmacia.Infraestructura.deps.json
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Infraestructura\bin\Debug\net7.0\Farmacia.Infraestructura.dll
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Infraestructura\bin\Debug\net7.0\Farmacia.Infraestructura.pdb
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Infraestructura\bin\Debug\net7.0\Farmacia.Application.Interface.dll
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Infraestructura\bin\Debug\net7.0\Farmacia.Domain.dll
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Infraestructura\bin\Debug\net7.0\Farmacia.Application.Interface.pdb
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Infraestructura\bin\Debug\net7.0\Farmacia.Domain.pdb
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Infraestructura\obj\Debug\net7.0\Farmacia.Infraestructura.csproj.AssemblyReference.cache
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Infraestructura\obj\Debug\net7.0\Farmacia.Infraestructura.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Infraestructura\obj\Debug\net7.0\Farmacia.Infraestructura.AssemblyInfoInputs.cache
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Infraestructura\obj\Debug\net7.0\Farmacia.Infraestructura.AssemblyInfo.cs
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Infraestructura\obj\Debug\net7.0\Farmacia.Infraestructura.csproj.CoreCompileInputs.cache
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Infraestructura\obj\Debug\net7.0\Farmacia.Infraestructura.csproj.CopyComplete
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Infraestructura\obj\Debug\net7.0\Farmacia.Infraestructura.dll
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Infraestructura\obj\Debug\net7.0\refint\Farmacia.Infraestructura.dll
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Infraestructura\obj\Debug\net7.0\Farmacia.Infraestructura.pdb
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Infraestructura\obj\Debug\net7.0\ref\Farmacia.Infraestructura.dll

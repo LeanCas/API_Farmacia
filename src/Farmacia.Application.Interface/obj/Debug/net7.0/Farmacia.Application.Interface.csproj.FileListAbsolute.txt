@@ -1,0 +1,15 @@
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.Interface\bin\Debug\net7.0\Farmacia.Application.Interface.deps.json
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.Interface\bin\Debug\net7.0\Farmacia.Application.Interface.dll
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.Interface\bin\Debug\net7.0\Farmacia.Application.Interface.pdb
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.Interface\bin\Debug\net7.0\Farmacia.Domain.dll
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.Interface\bin\Debug\net7.0\Farmacia.Domain.pdb
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.Interface\obj\Debug\net7.0\Farmacia.Application.Interface.csproj.AssemblyReference.cache
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.Interface\obj\Debug\net7.0\Farmacia.Application.Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.Interface\obj\Debug\net7.0\Farmacia.Application.Interface.AssemblyInfoInputs.cache
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.Interface\obj\Debug\net7.0\Farmacia.Application.Interface.AssemblyInfo.cs
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.Interface\obj\Debug\net7.0\Farmacia.Application.Interface.csproj.CoreCompileInputs.cache
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.Interface\obj\Debug\net7.0\Farmacia.Application.Interface.csproj.CopyComplete
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.Interface\obj\Debug\net7.0\Farmacia.Application.Interface.dll
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.Interface\obj\Debug\net7.0\refint\Farmacia.Application.Interface.dll
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.Interface\obj\Debug\net7.0\Farmacia.Application.Interface.pdb
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.Interface\obj\Debug\net7.0\ref\Farmacia.Application.Interface.dll
