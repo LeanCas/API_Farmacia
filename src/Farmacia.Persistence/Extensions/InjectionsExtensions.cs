@@ -1,4 +1,4 @@
-﻿using Farmacia.Application.Interface;
+﻿using Farmacia.Application.Interface.Interfaces;
 using Farmacia.Persistence.Context;
 using Farmacia.Persistence.Repositories;
 using Microsoft.Extensions.DependencyInjection;
@@ -12,8 +12,8 @@ namespace Farmacia.Persistence.Extensions
         public static IServiceCollection AddInjectionPersistense(this IServiceCollection services)
         {
             services.AddSingleton<ApplicationDBContext>();
-
-            services.AddScoped<IAnalysisRepository, AnalysisRepository>();
+            services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+            services.AddTransient<IUnitOfWork, UnitOfWork>();
 
             return services;
         }

@@ -1,5 +1,6 @@
 using Farmacia.Persistence.Extensions;
 using Farmacia.Application.UseCase.Extensions;
+using Farmacia.API.Extensions.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,6 +26,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.AddMiddleware();
 
 app.MapControllers();
 

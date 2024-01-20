@@ -1,25 +1,20 @@
 ﻿using AutoMapper;
 using Farmacia.Application.Dtos.Analysis.Response;
-using Farmacia.Application.Interface;
+using Farmacia.Application.Interface.Interfaces;
 using Farmacia.Application.UseCase.Commons.Bases;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Farmacia.Application.UseCase.UseCases.Analysis.Queries.GetByIdQuery
 {
     public class AnalysisByIdHandler : IRequestHandler<GetAnalysisByIdQuery, BaseResponse<GetAnalysisByIdResponseDto>>
     {
-        private readonly IAnalysisRepository _analysisRepository;
-
+        //private readonly IAnalysisRepository _analysisRepository;
+        private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
 
-        public AnalysisByIdHandler(IAnalysisRepository analysisRepository, IMapper mapper)
+        public AnalysisByIdHandler(IUnitOfWork unitOfWork, IMapper mapper)
         {
-            this._analysisRepository = analysisRepository;
+            _unitOfWork = unitOfWork;
             _mapper = mapper;
         }
 
@@ -29,9 +24,9 @@ namespace Farmacia.Application.UseCase.UseCases.Analysis.Queries.GetByIdQuery
 
             try
             {
-                var analysis = await _analysisRepository.AnalysisPorID(request.AnalysisId);
+                var analysis = await _unitOfWork.Analysis.GetByIdAsync("uspAnalysisById", new {request.AnalysisId});
 
-                if(analysis is null)
+                if (analysis is null)
                 {
                     response.IsSuccess = false;
                     response.Message = "No se encontaron registros";

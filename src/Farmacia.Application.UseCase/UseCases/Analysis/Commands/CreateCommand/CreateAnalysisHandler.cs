@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Farmacia.Application.Interface;
+using Farmacia.Application.Interface.Interfaces;
 using Farmacia.Application.UseCase.Commons.Bases;
 using MediatR;
 using System;
@@ -13,12 +13,13 @@ namespace Farmacia.Application.UseCase.UseCases.Analysis.Commands.CreateCommand
 {
     public class CreateAnalysisHandler : IRequestHandler<CreateAnalysisCommand, BaseResponse<bool>>
     {
-        private readonly IAnalysisRepository _analysisRepository;
+        //private readonly IAnalysisRepository _analysisRepository;
+        private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
 
-        public CreateAnalysisHandler(IAnalysisRepository analysisRepository, IMapper mapper)
+        public CreateAnalysisHandler(IUnitOfWork unitOfWork, IMapper mapper)
         {
-            _analysisRepository = analysisRepository;
+            _unitOfWork = unitOfWork;
             _mapper = mapper;
         }
 
@@ -30,7 +31,9 @@ namespace Farmacia.Application.UseCase.UseCases.Analysis.Commands.CreateCommand
             {
                 var analysis = _mapper.Map<Entity.Analysis>(request);    //Como existe problemas con el nombre Analysis, se lo declara arriba en los using para que desaparezca
 
-                response.Data = await _analysisRepository.AnalysisRegister(analysis);
+                var parameters = new { analysis.Name };
+
+                response.Data = await _unitOfWork.Analysis.ExecAsync("uspAnalysisRegister", parameters);
 
                 if (response.Data)
                 {

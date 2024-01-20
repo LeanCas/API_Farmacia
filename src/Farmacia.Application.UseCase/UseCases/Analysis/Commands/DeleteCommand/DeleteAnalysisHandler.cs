@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Farmacia.Application.Interface;
+using Farmacia.Application.Interface.Interfaces;
 using Farmacia.Application.UseCase.Commons.Bases;
 using MediatR;
 using System;
@@ -12,13 +12,13 @@ namespace Farmacia.Application.UseCase.UseCases.Analysis.Commands.DeleteCommand
 {
     public class DeleteAnalysisHandler : IRequestHandler<DeleteAnalysisCommand, BaseResponse<bool>>
     {
-        private readonly IAnalysisRepository _analysisRepository;
-
+        //private readonly IAnalysisRepository _analysisRepository;
+        private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
 
-        public DeleteAnalysisHandler(IAnalysisRepository analysisRepository, IMapper mapper)
+        public DeleteAnalysisHandler(IUnitOfWork unitOfWork, IMapper mapper)
         {
-            _analysisRepository = analysisRepository;
+            _unitOfWork = unitOfWork;
             _mapper = mapper;
         }
 
@@ -28,7 +28,7 @@ namespace Farmacia.Application.UseCase.UseCases.Analysis.Commands.DeleteCommand
 
             try
             {
-                response.Data = await _analysisRepository.AnalysisDelete(request.AnalysisId);
+                response.Data = await _unitOfWork.Analysis.ExecAsync("uspAnalysisDelete", new { request.AnalysisId });
 
                 if (response.Data)
                 {

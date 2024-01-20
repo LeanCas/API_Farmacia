@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Farmacia.Application.UseCase.Commons.Bases;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,18 @@ using System.Threading.Tasks;
 
 namespace Farmacia.Application.UseCase.Commons.Exceptions
 {
-    internal class ValidationException
+    public class ValidationException : Exception
     {
+        public IEnumerable<BaseError>? Errors { get;}
+
+        public ValidationException() : base() 
+        {
+            Errors = new List<BaseError>();
+        }
+
+        public ValidationException(IEnumerable<BaseError>? errors)
+        {
+            Errors = errors;
+        }
     }
 }
