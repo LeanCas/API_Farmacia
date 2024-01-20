@@ -17,6 +17,7 @@
     <ProjectReference Include="..\Farmacia.Application.Dtos\Farmacia.Application.Dtos.csproj" />
     <ProjectReference Include="..\Farmacia.Application.Interface\Farmacia.Application.Interface.csproj" />
     <ProjectReference Include="..\Farmacia.Domain\Farmacia.Domain.csproj" />
+    <ProjectReference Include="..\Farmacia.Utilities\Farmacia.Utilities.csproj" />
   </ItemGroup>
 
 </Project>

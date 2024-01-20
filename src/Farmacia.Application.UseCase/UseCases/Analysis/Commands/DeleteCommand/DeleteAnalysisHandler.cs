@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Farmacia.Application.Interface.Interfaces;
 using Farmacia.Application.UseCase.Commons.Bases;
+using Farmacia.Utilities.Constants;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -28,7 +29,7 @@ namespace Farmacia.Application.UseCase.UseCases.Analysis.Commands.DeleteCommand
 
             try
             {
-                response.Data = await _unitOfWork.Analysis.ExecAsync("uspAnalysisDelete", new { request.AnalysisId });
+                response.Data = await _unitOfWork.Analysis.ExecAsync(SP.uspAnalysisDelete, request);
 
                 if (response.Data)
                 {

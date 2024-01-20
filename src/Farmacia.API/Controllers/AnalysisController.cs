@@ -1,4 +1,5 @@
 ﻿using Farmacia.Application.Dtos.Analysis.Response;
+using Farmacia.Application.UseCase.UseCases.Analysis.Commands.ChangeStateCommand;
 using Farmacia.Application.UseCase.UseCases.Analysis.Commands.CreateCommand;
 using Farmacia.Application.UseCase.UseCases.Analysis.Commands.DeleteCommand;
 using Farmacia.Application.UseCase.UseCases.Analysis.Commands.UpdateCommand;
@@ -48,6 +49,14 @@ namespace Farmacia.API.Controllers
 
         [HttpPut("Edit")]
         public async Task<IActionResult> EditAnalysis([FromBody] UpdateAnalysisCommand command)
+        {
+            var response = await _mediator.Send(command);
+
+            return Ok(response);
+        }
+
+        [HttpPut("ChangeState")]
+        public async Task<IActionResult> ChangeStateAnalysis([FromBody] ChangeStateAnalysisCommand command)
         {
             var response = await _mediator.Send(command);
 

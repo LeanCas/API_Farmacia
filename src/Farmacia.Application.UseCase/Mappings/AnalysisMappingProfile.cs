@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Farmacia.Application.Dtos.Analysis.Response;
+using Farmacia.Application.UseCase.UseCases.Analysis.Commands.ChangeStateCommand;
 using Farmacia.Application.UseCase.UseCases.Analysis.Commands.CreateCommand;
 using Farmacia.Application.UseCase.UseCases.Analysis.Commands.UpdateCommand;
 using Farmacia.Domain.Entities;
@@ -25,6 +26,8 @@ namespace Farmacia.Application.UseCase.Mappings
             CreateMap<CreateAnalysisCommand, Analysis>();
 
             CreateMap<UpdateAnalysisCommand, Analysis>();
+
+            CreateMap<ChangeStateAnalysisCommand, Analysis>();
         }
     }
 }

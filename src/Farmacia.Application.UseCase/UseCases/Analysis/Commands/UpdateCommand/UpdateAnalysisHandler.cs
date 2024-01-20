@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
 using Farmacia.Application.Interface.Interfaces;
 using Farmacia.Application.UseCase.Commons.Bases;
+using Farmacia.Utilities.Constants;
+using Farmacia.Utilities.HelperExtensions;
 using MediatR;
 using System;
 using System.Collections.Generic;
@@ -31,9 +33,9 @@ namespace Farmacia.Application.UseCase.UseCases.Analysis.Commands.UpdateCommand
             {
                 var analysis = _mapper.Map<Entity.Analysis>(request);
 
-                var parameters = new {  analysis.AnalysisId, analysis.Name };
+                var parameters = analysis.GetPropertiesWithValues();
 
-                response.Data = await _unitOfWork.Analysis.ExecAsync("uspAnalysisEdit", parameters);
+                response.Data = await _unitOfWork.Analysis.ExecAsync(SP.uspAnalysisEdit, parameters);
 
                 if (response.Data)
                 {

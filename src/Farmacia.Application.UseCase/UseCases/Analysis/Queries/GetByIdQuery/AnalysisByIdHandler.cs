@@ -2,6 +2,7 @@
 using Farmacia.Application.Dtos.Analysis.Response;
 using Farmacia.Application.Interface.Interfaces;
 using Farmacia.Application.UseCase.Commons.Bases;
+using Farmacia.Utilities.Constants;
 using MediatR;
 
 namespace Farmacia.Application.UseCase.UseCases.Analysis.Queries.GetByIdQuery
@@ -24,7 +25,7 @@ namespace Farmacia.Application.UseCase.UseCases.Analysis.Queries.GetByIdQuery
 
             try
             {
-                var analysis = await _unitOfWork.Analysis.GetByIdAsync("uspAnalysisById", new {request.AnalysisId});
+                var analysis = await _unitOfWork.Analysis.GetByIdAsync(SP.uspAnalysisById, request);
 
                 if (analysis is null)
                 {

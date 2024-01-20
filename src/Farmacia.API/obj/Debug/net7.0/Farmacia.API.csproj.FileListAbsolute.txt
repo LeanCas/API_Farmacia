@@ -87,3 +87,5 @@ C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.API\obj\
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.API\obj\Debug\net7.0\Farmacia.API.pdb
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.API\obj\Debug\net7.0\Farmacia.API.genruntimeconfig.cache
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.API\obj\Debug\net7.0\ref\Farmacia.API.dll
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.API\bin\Debug\net7.0\Farmacia.Utilities.dll
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.API\bin\Debug\net7.0\Farmacia.Utilities.pdb
