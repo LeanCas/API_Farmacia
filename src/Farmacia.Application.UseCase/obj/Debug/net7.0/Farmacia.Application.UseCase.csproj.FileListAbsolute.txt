@@ -4,9 +4,11 @@ C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Applicat
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.UseCase\bin\Debug\net7.0\Farmacia.Application.Dtos.dll
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.UseCase\bin\Debug\net7.0\Farmacia.Application.Interface.dll
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.UseCase\bin\Debug\net7.0\Farmacia.Domain.dll
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.UseCase\bin\Debug\net7.0\Farmacia.Utilities.dll
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.UseCase\bin\Debug\net7.0\Farmacia.Application.Dtos.pdb
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.UseCase\bin\Debug\net7.0\Farmacia.Application.Interface.pdb
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.UseCase\bin\Debug\net7.0\Farmacia.Domain.pdb
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.UseCase\bin\Debug\net7.0\Farmacia.Utilities.pdb
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.UseCase\obj\Debug\net7.0\Farmacia.Application.UseCase.csproj.AssemblyReference.cache
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.UseCase\obj\Debug\net7.0\Farmacia.Application.UseCase.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.UseCase\obj\Debug\net7.0\Farmacia.Application.UseCase.AssemblyInfoInputs.cache
@@ -17,5 +19,3 @@ C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Applicat
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.UseCase\obj\Debug\net7.0\refint\Farmacia.Application.UseCase.dll
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.UseCase\obj\Debug\net7.0\Farmacia.Application.UseCase.pdb
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.UseCase\obj\Debug\net7.0\ref\Farmacia.Application.UseCase.dll
-C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.UseCase\bin\Debug\net7.0\Farmacia.Utilities.dll
-C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.UseCase\bin\Debug\net7.0\Farmacia.Utilities.pdb

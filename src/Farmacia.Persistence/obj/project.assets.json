@@ -839,10 +839,21 @@
           }
         }
       },
+      "Farmacia.Application.Dtos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Farmacia.Application.Dtos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Farmacia.Application.Dtos.dll": {}
+        }
+      },
       "Farmacia.Application.Interface/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "Farmacia.Application.Dtos": "1.0.0",
           "Farmacia.Domain": "1.0.0"
         },
         "compile": {
@@ -2364,6 +2375,11 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Farmacia.Application.Dtos/1.0.0": {
+      "type": "project",
+      "path": "../Farmacia.Application.Dtos/Farmacia.Application.Dtos.csproj",
+      "msbuildProject": "../Farmacia.Application.Dtos/Farmacia.Application.Dtos.csproj"
     },
     "Farmacia.Application.Interface/1.0.0": {
       "type": "project",

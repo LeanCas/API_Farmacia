@@ -10,5 +10,7 @@ namespace Farmacia.Application.Interface.Interfaces
     public interface IUnitOfWork : IDisposable
     {
         IGenericRepository<Analysis> Analysis { get; }
+
+        IExamRepository Exams { get; }
     }
 }

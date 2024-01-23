@@ -16,5 +16,15 @@ namespace Farmacia.Utilities.Constants
         public const string uspAnalysisList = "uspAnalysisList";
         public const string uspAnalysisById = "uspAnalysisById";
         #endregion
+
+        #region uspExams
+
+        public const string uspExamList = "uspExamList";
+        public const string uspExamById = "uspExamById";
+        public const string uspExamRegister = "uspExamRegister";
+        public const string uspExamEdit = "uspExamEdit";
+
+        #endregion
+
     }
 }

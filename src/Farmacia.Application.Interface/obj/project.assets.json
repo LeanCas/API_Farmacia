@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "Farmacia.Application.Dtos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Farmacia.Application.Dtos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Farmacia.Application.Dtos.dll": {}
+        }
+      },
       "Farmacia.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -15,6 +25,11 @@
     }
   },
   "libraries": {
+    "Farmacia.Application.Dtos/1.0.0": {
+      "type": "project",
+      "path": "../Farmacia.Application.Dtos/Farmacia.Application.Dtos.csproj",
+      "msbuildProject": "../Farmacia.Application.Dtos/Farmacia.Application.Dtos.csproj"
+    },
     "Farmacia.Domain/1.0.0": {
       "type": "project",
       "path": "../Farmacia.Domain/Farmacia.Domain.csproj",
@@ -23,6 +38,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Farmacia.Application.Dtos >= 1.0.0",
       "Farmacia.Domain >= 1.0.0"
     ]
   },
@@ -53,6 +69,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "C:\\Users\\Bruno Casavalle\\Desktop\\Farmacia-API\\API_Farmacia\\src\\Farmacia.Application.Dtos\\Farmacia.Application.Dtos.csproj": {
+              "projectPath": "C:\\Users\\Bruno Casavalle\\Desktop\\Farmacia-API\\API_Farmacia\\src\\Farmacia.Application.Dtos\\Farmacia.Application.Dtos.csproj"
+            },
             "C:\\Users\\Bruno Casavalle\\Desktop\\Farmacia-API\\API_Farmacia\\src\\Farmacia.Domain\\Farmacia.Domain.csproj": {
               "projectPath": "C:\\Users\\Bruno Casavalle\\Desktop\\Farmacia-API\\API_Farmacia\\src\\Farmacia.Domain\\Farmacia.Domain.csproj"
             }

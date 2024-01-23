@@ -61,11 +61,13 @@ C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.API\bin\
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.API\bin\Debug\net7.0\Farmacia.Application.UseCase.dll
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.API\bin\Debug\net7.0\Farmacia.Domain.dll
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.API\bin\Debug\net7.0\Farmacia.Persistence.dll
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.API\bin\Debug\net7.0\Farmacia.Utilities.dll
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.API\bin\Debug\net7.0\Farmacia.Application.UseCase.pdb
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.API\bin\Debug\net7.0\Farmacia.Persistence.pdb
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.API\bin\Debug\net7.0\Farmacia.Application.Dtos.pdb
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.API\bin\Debug\net7.0\Farmacia.Application.Interface.pdb
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.API\bin\Debug\net7.0\Farmacia.Domain.pdb
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.API\bin\Debug\net7.0\Farmacia.Utilities.pdb
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.API\obj\Debug\net7.0\Farmacia.API.csproj.AssemblyReference.cache
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.API\obj\Debug\net7.0\Farmacia.API.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.API\obj\Debug\net7.0\Farmacia.API.AssemblyInfoInputs.cache
@@ -87,5 +89,3 @@ C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.API\obj\
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.API\obj\Debug\net7.0\Farmacia.API.pdb
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.API\obj\Debug\net7.0\Farmacia.API.genruntimeconfig.cache
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.API\obj\Debug\net7.0\ref\Farmacia.API.dll
-C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.API\bin\Debug\net7.0\Farmacia.Utilities.dll
-C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.API\bin\Debug\net7.0\Farmacia.Utilities.pdb

@@ -12,6 +12,7 @@ namespace Farmacia.Persistence.Extensions
         public static IServiceCollection AddInjectionPersistense(this IServiceCollection services)
         {
             services.AddSingleton<ApplicationDBContext>();
+
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddTransient<IUnitOfWork, UnitOfWork>();
 

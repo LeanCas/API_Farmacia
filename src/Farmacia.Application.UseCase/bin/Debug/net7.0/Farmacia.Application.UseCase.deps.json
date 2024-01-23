@@ -124,6 +124,7 @@
       },
       "Farmacia.Application.Interface/1.0.0": {
         "dependencies": {
+          "Farmacia.Application.Dtos": "1.0.0",
           "Farmacia.Domain": "1.0.0"
         },
         "runtime": {

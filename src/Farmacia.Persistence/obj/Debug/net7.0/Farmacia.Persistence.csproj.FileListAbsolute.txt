@@ -15,3 +15,5 @@ C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Persiste
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Persistence\obj\Debug\net7.0\refint\Farmacia.Persistence.dll
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Persistence\obj\Debug\net7.0\Farmacia.Persistence.pdb
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Persistence\obj\Debug\net7.0\ref\Farmacia.Persistence.dll
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Persistence\bin\Debug\net7.0\Farmacia.Application.Dtos.dll
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Persistence\bin\Debug\net7.0\Farmacia.Application.Dtos.pdb

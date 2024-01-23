@@ -8,10 +8,16 @@
     ".NETCoreApp,Version=v7.0": {
       "Farmacia.Application.Interface/1.0.0": {
         "dependencies": {
+          "Farmacia.Application.Dtos": "1.0.0",
           "Farmacia.Domain": "1.0.0"
         },
         "runtime": {
           "Farmacia.Application.Interface.dll": {}
+        }
+      },
+      "Farmacia.Application.Dtos/1.0.0": {
+        "runtime": {
+          "Farmacia.Application.Dtos.dll": {}
         }
       },
       "Farmacia.Domain/1.0.0": {
@@ -23,6 +29,11 @@
   },
   "libraries": {
     "Farmacia.Application.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Farmacia.Application.Dtos/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

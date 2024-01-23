@@ -83,6 +83,9 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
+              "C:\\Users\\Bruno Casavalle\\Desktop\\Farmacia-API\\API_Farmacia\\src\\Farmacia.Application.Dtos\\Farmacia.Application.Dtos.csproj": {
+                "projectPath": "C:\\Users\\Bruno Casavalle\\Desktop\\Farmacia-API\\API_Farmacia\\src\\Farmacia.Application.Dtos\\Farmacia.Application.Dtos.csproj"
+              },
               "C:\\Users\\Bruno Casavalle\\Desktop\\Farmacia-API\\API_Farmacia\\src\\Farmacia.Domain\\Farmacia.Domain.csproj": {
                 "projectPath": "C:\\Users\\Bruno Casavalle\\Desktop\\Farmacia-API\\API_Farmacia\\src\\Farmacia.Domain\\Farmacia.Domain.csproj"
               }

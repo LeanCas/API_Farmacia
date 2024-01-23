@@ -13,3 +13,5 @@ C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Applicat
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.Interface\obj\Debug\net7.0\refint\Farmacia.Application.Interface.dll
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.Interface\obj\Debug\net7.0\Farmacia.Application.Interface.pdb
 C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.Interface\obj\Debug\net7.0\ref\Farmacia.Application.Interface.dll
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.Interface\bin\Debug\net7.0\Farmacia.Application.Dtos.dll
+C:\Users\Bruno Casavalle\Desktop\Farmacia-API\API_Farmacia\src\Farmacia.Application.Interface\bin\Debug\net7.0\Farmacia.Application.Dtos.pdb

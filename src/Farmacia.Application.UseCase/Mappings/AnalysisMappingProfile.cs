@@ -4,11 +4,6 @@ using Farmacia.Application.UseCase.UseCases.Analysis.Commands.ChangeStateCommand
 using Farmacia.Application.UseCase.UseCases.Analysis.Commands.CreateCommand;
 using Farmacia.Application.UseCase.UseCases.Analysis.Commands.UpdateCommand;
 using Farmacia.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Farmacia.Application.UseCase.Mappings
 {
