@@ -1,4 +1,5 @@
 ﻿using Farmacia.Application.UseCase.UseCases.Exam.Commands.CreateCommand;
+using Farmacia.Application.UseCase.UseCases.Exam.Commands.DeleteCommand;
 using Farmacia.Application.UseCase.UseCases.Exam.Commands.UpdateCommand;
 using Farmacia.Application.UseCase.UseCases.Exam.Queries.GetAllQuery;
 using Farmacia.Application.UseCase.UseCases.Exam.Queries.GetByIdQuery;
@@ -49,6 +50,23 @@ namespace Farmacia.API.Controllers
 
             return Ok(response);
         
+        }
+
+        [HttpPut("ChangeState")]
+        public async Task<IActionResult> ChangeStateExam([FromBody] UpdateExamCommand command)
+        {
+            var response = await _mediator.Send(command);
+
+            return Ok(response);
+
+        }
+
+        [HttpDelete("Eliminar/{examId:int}")]
+        public async Task<IActionResult> DeleteExam(int examId)
+        {
+            var response = await _mediator.Send(new DeleteExamCommand() { ExamId = examId});
+
+            return Ok(response);
         }
     }
 }

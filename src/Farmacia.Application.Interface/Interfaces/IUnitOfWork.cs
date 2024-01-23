@@ -12,5 +12,7 @@ namespace Farmacia.Application.Interface.Interfaces
         IGenericRepository<Analysis> Analysis { get; }
 
         IExamRepository Exams { get; }
+
+        IPatientRepository Patient { get; }
     }
 }

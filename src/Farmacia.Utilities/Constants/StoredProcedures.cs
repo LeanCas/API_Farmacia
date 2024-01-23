@@ -23,7 +23,13 @@ namespace Farmacia.Utilities.Constants
         public const string uspExamById = "uspExamById";
         public const string uspExamRegister = "uspExamRegister";
         public const string uspExamEdit = "uspExamEdit";
+        public const string uspExamDelete = "uspExamDelete";
+        public const string uspExamChangeState = "uspExamChangeState";
 
+        #endregion
+
+        #region uspPatient
+        public const string uspPatientList = "uspPatientList";
         #endregion
 
     }

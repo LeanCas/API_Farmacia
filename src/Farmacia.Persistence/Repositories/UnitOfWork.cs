@@ -11,11 +11,15 @@ namespace Farmacia.Persistence.Repositories
         public IGenericRepository<Analysis> Analysis { get; }
 
         public IExamRepository Exams { get; }
+
+        public IPatientRepository Patient { get; }
+
         public UnitOfWork(IGenericRepository<Analysis> analysis, ApplicationDBContext context)
         {
             _context = context;
             Analysis = analysis;
             Exams = new ExamRepository(_context);
+            Patient = new PatientRepository(_context);
         }
 
         
