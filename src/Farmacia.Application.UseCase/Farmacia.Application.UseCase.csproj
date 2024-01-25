@@ -20,8 +20,4 @@
     <ProjectReference Include="..\Farmacia.Utilities\Farmacia.Utilities.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="UseCases\Patient\Commands\" />
-  </ItemGroup>
-
 </Project>
