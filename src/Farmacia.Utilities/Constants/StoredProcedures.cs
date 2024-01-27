@@ -34,6 +34,15 @@ namespace Farmacia.Utilities.Constants
         public const string uspPatientRegister = "uspPatientRegister";
         public const string uspPatientEdit = "uspPatientEdit";
         public const string uspPatientDelete = "uspPatientDelete";
+        public const string uspPatientChangeState = "uspPatientChangeState";
+        #endregion
+
+        #region
+        public const string uspMedicList = "uspMedicList";
+        public const string uspMedicById = "uspMedicById";
+        public const string uspMedicRegister = "uspMedicRegister";
+        public const string uspMedicEdit = "uspMedicEdit";
+        public const string uspMedicDelete = "uspMedicDelete";
         #endregion
 
     }

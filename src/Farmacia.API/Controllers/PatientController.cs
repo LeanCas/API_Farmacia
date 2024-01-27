@@ -1,4 +1,5 @@
-﻿using Farmacia.Application.UseCase.UseCases.Patient.Commands.CreateCommand;
+﻿using Farmacia.Application.UseCase.UseCases.Patient.Commands.ChangeStateCommand;
+using Farmacia.Application.UseCase.UseCases.Patient.Commands.CreateCommand;
 using Farmacia.Application.UseCase.UseCases.Patient.Commands.DeleteCommand;
 using Farmacia.Application.UseCase.UseCases.Patient.Commands.UpdateCommand;
 using Farmacia.Application.UseCase.UseCases.Patient.Queries.GetAllQuery;
@@ -46,6 +47,14 @@ namespace Farmacia.API.Controllers
 
         [HttpPut("Edit")]
         public async Task<IActionResult> EditPatient([FromBody] UpdatePatientCommand command)
+        {
+            var response = await _mediator.Send(command);
+
+            return Ok(response);
+        }
+
+        [HttpPut("ChangeState")]
+        public async Task<IActionResult> ChangeStatePatient([FromBody] ChangeStatePatientCommand command)
         {
             var response = await _mediator.Send(command);
 

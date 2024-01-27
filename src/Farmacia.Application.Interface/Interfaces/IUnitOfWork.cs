@@ -14,5 +14,7 @@ namespace Farmacia.Application.Interface.Interfaces
         IExamRepository Exams { get; }
 
         IPatientRepository Patient { get; }
+
+        IMedicRepository Medic { get; }
     }
 }

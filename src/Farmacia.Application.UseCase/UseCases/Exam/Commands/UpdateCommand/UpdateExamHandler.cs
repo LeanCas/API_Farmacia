@@ -48,7 +48,7 @@ namespace Farmacia.Application.UseCase.UseCases.Exam.Commands.UpdateCommand
             catch (Exception ex)
             {
                 response.IsSuccess = false;
-                response.Message = "No se pudo completar la edicion";
+                response.Message = ex.Message;
             }
 
             return response;

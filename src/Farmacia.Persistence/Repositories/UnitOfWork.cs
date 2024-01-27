@@ -14,19 +14,16 @@ namespace Farmacia.Persistence.Repositories
 
         public IPatientRepository Patient { get; }
 
+        public IMedicRepository Medic { get; }
+
         public UnitOfWork(IGenericRepository<Analysis> analysis, ApplicationDBContext context)
         {
             _context = context;
             Analysis = analysis;
             Exams = new ExamRepository(_context);
             Patient = new PatientRepository(_context);
+            Medic = new MedicRepository(_context);
         }
-
-        
-
-
-       
-
         public void Dispose()
         {
             GC.SuppressFinalize(this);

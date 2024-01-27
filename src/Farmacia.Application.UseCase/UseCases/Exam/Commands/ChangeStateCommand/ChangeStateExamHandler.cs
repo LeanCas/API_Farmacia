@@ -48,7 +48,7 @@ namespace Farmacia.Application.UseCase.UseCases.Exam.Commands.ChangeStateCommand
             }catch (Exception ex)
             {
                 response.IsSuccess = false;
-                response.Message = "No se puedo realizar los cambios";
+                response.Message = ex.Message;
             }
 
             return response;

@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Farmacia.Application.Dtos.Patient.Response;
+using Farmacia.Application.UseCase.UseCases.Patient.Commands.ChangeStateCommand;
 using Farmacia.Application.UseCase.UseCases.Patient.Commands.CreateCommand;
 using Farmacia.Application.UseCase.UseCases.Patient.Commands.UpdateCommand;
 using Farmacia.Domain.Entities;
@@ -15,6 +16,8 @@ namespace Farmacia.Application.UseCase.Mappings
             CreateMap<CreatePatientCommand, Patient>();
 
             CreateMap<UpdatePatientCommand, Patient>();
+
+            CreateMap<ChangeStatePatientCommand, Patient>();
         }
     }
 }
